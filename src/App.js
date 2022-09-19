@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Example from './components/example';
+import Stateful from './components/stateful';
 
 function App() {
 	return (
@@ -9,6 +10,7 @@ function App() {
 				<p className="text-6xl border-l-fu">Welcome</p>
 				<div>
 					<Example />
+					<Stateful />
 				</div>
 			</header>
 		</div>
