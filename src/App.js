@@ -1,17 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
-import Example from './components/example';
-import Stateful from './components/stateful';
+import Navbar from './components/navbar';
 
 function App() {
 	return (
 		<div className="App">
+			<Navbar />
 			<header className="App-header flex flex-col">
 				<p className="text-6xl border-l-fu">Welcome</p>
-				<div>
-					<Example />
-					<Stateful />
-				</div>
+				<div>Hello</div>
 			</header>
 		</div>
 	);
